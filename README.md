@@ -80,14 +80,14 @@ iii) content
 
 Dockerfile
 
-# Use the official Nginx image as the base
+***Use the official Nginx image as the base***
 FROM nginx:latest
 
-# Copy file.html to the default Nginx HTML directory
+***Copy file.html to the default Nginx HTML directory***
 COPY index.html /usr/share/nginx/html/index.html
 
-# Expose port 80 to allow access
+***Expose port 80 to allow access***
 EXPOSE 80
 
-# Start the Nginx server
+***Start the Nginx server***
 CMD ["nginx", "-g", "daemon off;"]
