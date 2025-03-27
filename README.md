@@ -37,21 +37,32 @@ Flag-> Flags in linux are also known as options and they play a very crucial rol
 # Commands
 ***13/03/25***
 >> suo apt install docker.io
+>> 
 >> docker pull busybox // pulling an image called busybox
+>> 
 >> docker run -it busybox sh // loading the image, -it is a flag, it means interactive, sh means shell it is going to open the shell, busybox is an image name
+>> 
 >> exit // to return away from the busybox os and return back to ubuntu
+>> 
 >> docker ps // shows only running containers
 >> docker ps -a // will give all the containers stopped running whatever
 >>
 >> //Building an image
 >>
 >> mkdir BuildingOne
+>> 
 >> cd BuildingOne
+>> 
 >> nano index.html
+>> 
 >> nano Dockerfile //configuration file required for docker to work
+>> 
 >> // inside the docker file, we are building our docker image
->> docer build -t <foldername> .
->> docer build -t file .
+>>
+>> docker build -t <foldername> .
+>> 
+>> docker build -t file .
+>> 
 >> docker run -d -p 8090:80 <foldername>
 >> // now we get the webpage
 
