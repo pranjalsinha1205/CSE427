@@ -59,11 +59,11 @@ Flag-> Flags in linux are also known as options and they play a very crucial rol
 >> 
 >> // inside the docker file, we are building our docker image
 >>
->> docker build -t <foldername> .
+>> docker build -t foldername .
 >> 
 >> docker build -t file .
 >> 
->> docker run -d -p 8090:80 <foldername>
+>> docker run -d -p 8090:80 foldername
 >> // now we get the webpage
 
 
