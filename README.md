@@ -95,3 +95,64 @@ EXPOSE 80
 ***Start the Nginx server***
 
 CMD ["nginx", "-g", "daemon off;"]
+
+
+***03.04.2025***
+
+1) go to vmware hol labs
+
+2) search for virtualization 101 and enroll in the course
+
+type 1 hypervisor
+
+![image](https://github.com/user-attachments/assets/6af8fa12-237f-4731-8d47-4d60d6340e4a)
+
+when the lab opens,
+
+> go to firefoz
+>
+> go to region a
+>
+> go to vcsa
+>
+> username and password
+
+![image](https://github.com/user-attachments/assets/95c2ab35-237d-4452-bebd-418bc3577e9f)
+
+on the left side,
+
+one data center > one region > one cluster > two servers > three VMs
+
+we have 4 icons above them, cluster, network, storage, etc.
+
+green means my virtual machine is turned off
+
+>> right click on comp01
+>>
+>> new vm
+>>
+>> create new vm
+>>
+>> name
+>>
+>> then choose server (any one)
+>>
+>> select storage (do ctrl --) then chooss one of them
+>>
+>> select compatibility
+>>
+>> select gues OS linux and vmware photon os
+>>
+>> customize hardware (if u want)
+>>
+>> finish
+
+to power on the vm
+
+>> actions
+>>
+>> edit settings
+>>
+>> change in the cd/dvd drive, client device to content os library
+>>
+>> tick connect at power on
