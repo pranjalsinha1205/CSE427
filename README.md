@@ -156,3 +156,20 @@ to power on the vm
 >> change in the cd/dvd drive, client device to content os library
 >>
 >> tick connect at power on
+
+
+***17.04.25***
+
+To mitigate faults we use different techniques.
+
+i) High Availability(HA)- means my resource cluster can help other clusters
+
+    a) when HA is turned on only partial resources are offered as help
+
+    b) there are two types of clusters, master cluster, slave cluster
+    
+    c) master cluster observes the health of the master cluster, it also redirects the resources(workload distribution)
+    
+    d) slave cluster also observe the master cluster, if the master is rendered unable to work properly then the slaves change the masters
+    
+    e) in such a scenario the master also becomes a slave.
