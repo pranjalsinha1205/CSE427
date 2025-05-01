@@ -173,3 +173,9 @@ i) High Availability(HA)- means my resource cluster can help other clusters
     d) slave cluster also observe the master cluster, if the master is rendered unable to work properly then the slaves change the masters
     
     e) in such a scenario the master also becomes a slave.
+
+***01.05.25***
+
+Distributed Switch ->     |Host|
+                      ________________
+                      |Standard Switch|
