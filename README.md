@@ -178,4 +178,17 @@ i) High Availability(HA)- means my resource cluster can help other clusters
 
 Distributed Switch ->     |Host|
                       ________________
+                      
                       |Standard Switch|
+
+Standard switch allows to send messages to clusters, if i want to have host to host communication we use distributed switch.
+
+Steps:-
+
+1) right click on RegionA01 not the COMP01 waala
+
+2) go to actions then distrubuted switch
+
+3) new distributed switch
+
+4) NIC- network interface card
