@@ -191,4 +191,6 @@ Steps:-
 
 3) new distributed switch
 
-4) NIC- network interface card
+4) NIC- network interface card, name ur switch
+
+5) location is A01
