@@ -194,3 +194,11 @@ Steps:-
 4) NIC- network interface card, name ur switch
 
 5) location is A01
+
+6) just go to next next finish
+
+Then done.
+
+Ports are a window to the outside world, even though our device only has one IP more than one applications are able to use internet simultaneously becoz every app has a different port.
+
+To see the switch, go to the 4th icon atop the clusters. There u will find the switch.
